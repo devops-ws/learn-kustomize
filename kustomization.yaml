@@ -6,3 +6,6 @@ namePrefix: kustomize-
 resources:
 - ./deployment.yaml
 - ./service.yaml
+images:
+- name: devopsws/go-server
+  newTag: 962dd6c55c9cc23e9e0d98964cd314db32de3432
